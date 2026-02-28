@@ -1,19 +1,39 @@
-# 🎈 Blank app template
+Hospitals and blood banks often face difficulty in quickly finding suitable blood donors during emergencies.
+Current problems include:
 
-A simple Streamlit app template for you to modify!
+Donor information stored in registers or scattered Excel files
+No real-time availability tracking
+Time-consuming manual search
+Difficulty filtering donors by blood group and location
+No proper tracking of total donation history
+Delays during emergency situations
+In critical cases, even a small delay in finding a matching donor can cost lives.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Proposed Solution
 
-### How to run it on your own machine
+To solve this issue, we developed a Blood Donation Management Web Application from the hospital’s point of view.
 
-1. Install the requirements
+The system allows:
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+Hospital admin, Blood bank admin to register donor details
+Update donor availability
+Track total donation count
+Store contact information
 
-2. Run the app
+Search donors by:
+Blood Group
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+The application is built using:
+Python
+Streamlit (for web interface)
+SQLite (local database)
+
+The system runs on localhost and is designed for hospital internal use.
+
+Why We Chose This Solution
+
+Hospital-Centered Approach
+Instead of allowing donors to self-register publicly, this system is controlled by hospital administrators, ensuring:
+Verified donor data
+Accurate updates
+Secure information management
